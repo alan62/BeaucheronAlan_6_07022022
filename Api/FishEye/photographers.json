@@ -6,6 +6,7 @@
 			"city": "London",
 			"country": "UK",
 			"tagline": "Voir le beau dans le quotidien",
+            "tags": ["animals", "event","portrait", "travel"],
 			"price": 400,
 			"portrait": "../assets/medias/portrait/MimiKeel.jpg",
             "alt": "Mimi Keel portrait"
@@ -16,6 +17,7 @@
 			"city": "Paris",
 			"country": "France",
 			"tagline": "Capturer des compositions complexes",
+            "tags": ["architecture", "sport"],
 			"price": 250,
 			"portrait": "../assets/medias/portrait/EllieRoseWilkens.jpg",
             "alt": "Ellie-Rose portrait"
@@ -26,6 +28,7 @@
 			"city": "Montreal",
 			"country": "Canada",
 			"tagline": "Photographe freelance",
+            "tags": ["art", "event","fashion"],
 			"price": 500,
 			"portrait": "../assets/medias/portrait/TracyGalindo.jpg",
             "alt": "Tracy Galindo portrait"
@@ -36,6 +39,7 @@
 			"city": "Mexico City",
 			"country": "Mexico",
 			"tagline": "Toujours aller de l'avant",
+            "tags": ["portrait", "travel"],
 			"price": 350,
 			"portrait": "../assets/medias/portrait/NabeelBradford.jpg",
             "alt": "Nabeel Bradford portrait"
@@ -46,6 +50,7 @@
 			"city": "Barcelona",
 			"country": "Spain",
 			"tagline": "Je crée des souvenirs",
+            "tags": ["animals", "event","fashion", "sport"],
 			"price": 275,
 			"portrait": "../assets/medias/portrait/RhodeDubois.jpg",
             "alt": "Rhode Dubois portrait"
@@ -56,6 +61,7 @@
 			"city": "Berlin",
 			"country": "Germany",
 			"tagline": "Toujours à la recherche de LA photo",
+            "tags": ["architecture", "travel"],
 			"price": 300,
 			"portrait": "../assets/medias/portrait/MarcelNikolic.jpg",
             "alt": "Marcel Nikolic portrait"
