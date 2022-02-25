@@ -1,8 +1,7 @@
 'use strict';
-/////////////////////////////////////////
 
 
-// DISPLAY ALL PHOTOGRAPHERS BY DEFAULT
+// CREATE ARTICLE INTO #PHOTOGRAPHERS THEN DISPLAY ALL PHOTOGRAPHERS BY DEFAULT
 export default class HomePageBuilder {
     displayPhotographers(data) {
         let photographers = data.photographers;
@@ -10,7 +9,7 @@ export default class HomePageBuilder {
             let sectionPhotographers = document.getElementById('photographers');
             let articlePhotographers = document.createElement('article');
             let templatePhotographer = `
-            <a href="photographers.html?id=${photographe.id}" title="${photographe.name}"> 
+            <a href="photographer.html?id=${photographe.id}" title="${photographe.name}"> 
                 <img src="${photographe.portrait}" alt="${photographe.alt}">
                 <h2 class="name">${photographe.name}</h2>
             </a> 
