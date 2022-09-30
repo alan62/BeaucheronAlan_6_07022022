@@ -1,0 +1,34 @@
+form {
+  @include column(center, flex-start);
+  width: 100%;
+
+  label {
+    color: $darkgrey;
+    font-size: 30px;
+    line-height: normal;
+    margin: 3px 0;
+  }
+
+  input, textarea {
+    width: 100%;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+  }
+
+  button {
+    margin: 20px 0;
+  }
+
+  div {
+    @include column();
+    width: 100%;
+    align-items: self-start;
+  }
+}
+
+
+
+
+
